@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/rename"
+        android:title="Rename User"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/easy_refresh"
+        android:icon="@drawable/easy"
+        android:title="Easy (4 x 2)"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/medium_refresh"
+        android:icon="@drawable/medium"
+        android:title="Medium (6 x 3)"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/hard_refresh"
+        android:icon="@drawable/hard"
+        android:title="Hard (5 x 4)"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_refresh"
+        android:icon="@drawable/ic_baseline_refresh_24"
+        android:title="Refresh"
+        app:showAsAction="always" />
+</menu>
